@@ -1,0 +1,1 @@
+This is a layout practice using css and html
