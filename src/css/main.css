@@ -1,0 +1,107 @@
+
+.logo{
+    float: left;
+    width: 20%;
+}
+
+.nav-menu{
+    float: left;
+    width: 80%;
+}
+
+.nav-menu p {
+    text-align: right;
+}
+
+.content-slider
+{
+    border-style: solid;
+    height: 100px;
+    padding-top: 50px;
+}
+
+.content-slider p {
+    text-align: center;
+}
+
+
+.content-footer
+{
+    border-style: solid;
+    padding-top: 30px;
+    height: 60px;
+}
+
+.content-footer p {
+    text-align: center;
+}
+
+.content-info-left{
+    float: left;
+    width: 75%;
+    height: 400px;
+}
+
+.content-info-right
+{
+    float: right;
+    width: 24.2%;
+    height: 400px;
+    border-style: solid;
+}
+
+.info-left-top{
+    float:left;
+    width: 30%;
+    height: 195px;
+    margin-right: 10px;
+    border-style: solid;
+}
+
+.info-left-bottom{
+    float:left;
+    width: 46.2%;
+    height: 190px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-style: solid;
+}
+
+body{
+    padding: 20px;
+}
+
+header {
+    background-color: #BBB;
+    padding: 20px 0px;
+  }
+
+main {
+    background-color: #D4E8FC;
+}
+
+footer {
+    background-color: #BBB;
+    padding: 20px 0px;
+}
+
+/**
+ * Micro clearfix
+ */
+ .cf::before,
+ .cf::after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+
+ .cf::after {
+     clear: both;
+ }
+
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }
